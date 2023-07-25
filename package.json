@@ -1,0 +1,24 @@
+{
+    "name": "HUSAM",
+    "author": "@HUSAM",
+    "version": "0.1",
+    "description": "A minimal and detail oriented light and dark theme for Logseq",
+    "logseq": {
+      "themes": [
+        {
+          "name": "The Valut Light",
+          "url": "./custom.css",
+          "description": "A minimal and detail oriented light theme for Logseq",
+          "mode": "light"
+        },
+        {
+          "name": "The Valut Dark",
+          "url": "./custom.css",
+          "description": "A minimal and detail oriented dark theme for Logseq",
+          "mode": "dark"
+        }
+      ],
+      "id": "HUSAM",
+      "icon": "./luma-icon.png"
+    }
+  }

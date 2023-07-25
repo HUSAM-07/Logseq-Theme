@@ -1,0 +1,95 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+/* hide scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --sans-serif: "Inter", sans;
+  --ls-left-sidebar-width: 200px;
+  --ls-main-content-max-width: 810px;
+}
+
+/* hide scrollbars */
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 16px solid transparent;
+  background-clip: content-box;
+}
+
+/* custom theme colors */
+:root {
+  --bg1: #efe7b5;
+  --bg2: #3c3b3a;
+  --bg3: #e76247;
+  --bg4: #2d542e;
+
+  --bg-hover: hsla(227, 33%, 90%, 0.494);
+  --bg-links: var(--bg2);
+
+  --header-text: hsl(205, 23%, 16%);
+  --text-primary: hsl(222, 47%, 11%);
+  --text-secondary: #64748b;
+  --text-tertiary: #94a3b8;
+  --text-quarternary: hsl(224, 14%, 64%);
+  --text-faint: hsl(225, 23%, 76%);
+  --icon: hsl(227, 16%, 67%);
+
+  --ls-primary-text-color: var(--text-primary);
+  --ls-primary-background-color: var(--bg1);
+  --ls-secondary-background-color: var(--bg2);
+  --ls-tertiary-background-color: var(--bg3);
+  --ls-quaternary-background-color: var(--bg3);
+  --ls-icon-color: var(--icon);
+  --ls-page-properties-background-color: var(--bg2);
+  --ls-block-properties-background-color: var(--bg2);
+  --ls-block-highlight-color: hsla(197, 71%, 52%, 0.3);
+  --ls-table-tr-even-background-color: var(--bg2);
+  --ls-block-bullet-border-color: var(--bg3);
+  --ls-page-checkbox-color: var(--bg2);
+  --color-level-2: var(--bg2);
+  --ls-block-bullet-color: hsl(206, 22%, 29%);
+  --ls-guideline-color: hsla(204, 29%, 90%, .8);
+  --ls-border-color: hsl(204, 29%, 90%);
+  --ls-checkbox-border-color: var(--ls-border-color);
+
+  --box-shadow-med: 0px 6px 10px hsla(210, 4%, 18%, 0.05);
+  --box-shadow-small: 0px 2px 3px hsla(210, 12%, 10%, 0.05);
+  --box-shadow-xsmall: 0px 1px 2px hsla(210, 12%, 10%, 0.05);
+
+  --scrim: hsl(224, 8%, 20%);
+
+  --ls-scrollbar-width: 20px;
+  --ls-scrollbar-foreground-color: var(--ls-tertiary-background-color);
+  --ls-scrollbar-background-color: transparent;
+  --ls-scrollbar-thumb-hover-color: var(--ls-quaternary-background-color);
+}
+
+/* light colors */
+.light-theme,
+.white-theme,
+html[data-theme=light] {
+  /* Replace with custom colors */
+  --bg1: #efe7b5;
+  --bg2: #3c3b3a;
+  --bg3: #e76247;
+  --bg4: #2d542e;
+
+  /* ... Remaining CSS properties ... */
+}
+
+/* dark colors */
+.dark-theme,
+html[data-theme=dark] {
+  /* Replace with custom colors */
+  --bg1: #efe7b5;
+  --bg2: #3c3b3a;
+  --bg3: #e76247;
+  --bg4: #2d542e;
+
+  /* ... Remaining CSS properties ... */
+}
+
+/* Rest of the CSS styles remain the same */
